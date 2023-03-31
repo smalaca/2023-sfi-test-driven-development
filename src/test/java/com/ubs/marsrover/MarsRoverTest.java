@@ -4,6 +4,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class MarsRoverTest {
+// mvn test - run tests fix
 
     @Test
     void shouldLandOnZeroZero() {

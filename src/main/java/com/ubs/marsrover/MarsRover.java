@@ -8,6 +8,8 @@ public class MarsRover {
     }
 
     void move(String path) {
-        martianCubit = new MartianCubit(1, 0);
+        if ("F".equals(path)) {
+            martianCubit = new MartianCubit(1, 0);
+        }
     }
 }

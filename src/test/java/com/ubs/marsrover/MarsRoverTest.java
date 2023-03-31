@@ -11,7 +11,7 @@ class MarsRoverTest {
         // given
 
         // when
-        MartianCubit actual = new MarsRover().land();
+        MartianCubit actual = new MarsRover().getPosition();
 
         // then
         Assertions.assertThat(actual).isEqualTo(new MartianCubit(0, 0));

@@ -17,4 +17,16 @@ class MarsRoverTest {
         Assertions.assertThat(actual).isEqualTo(new MartianCubit(0, 0));
     }
 
+    @Test
+    void shouldMoveForward() {
+        // given
+        MarsRover marsRover = new MarsRover();
+
+        // when
+        marsRover.move("F");
+
+        // then
+        MartianCubit actual = marsRover.getPosition();
+        Assertions.assertThat(actual).isEqualTo(new MartianCubit(1, 0));
+    }
 }

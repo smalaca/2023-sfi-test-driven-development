@@ -4,4 +4,8 @@ public class MarsRover {
     public MartianCubit getPosition() {
         return new MartianCubit(0, 0);
     }
+
+    void move(String path) {
+
+    }
 }

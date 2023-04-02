@@ -9,10 +9,10 @@ A Rover is going to be dropped onto the surface of Mars, and will be controlled 
   * R - turn 90º to the right
   * All other characters are ignored
   * Eg: FLFFRF
-  * Eg: F -> [1,0]
-  * Eg: LF -> [0,1]
-  * Eg: RF -> [0,-1]
-  * Eg: RRF -> [-1,0]
+  * Eg: F -> [1,0]  (x=x+1)
+  * Eg: LF -> [0,1] (y=y+1)
+  * Eg: RF -> [0,100] (y=y-1)
+  * Eg: RRF -> [100,0] (x=x-1)
 * We know how large Mars is. Its surface area is 100x100 Cubits.
 * Planets are round… (so take this into account when trundling around).
 
